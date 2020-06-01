@@ -1,5 +1,7 @@
 Feature('contact');
 
-Scenario('test something', (I) => {
+Scenario('contact button', (I) => {
+    I.amOnPage('https://www.dotmodus.com/');
+    I.see('Contact Us');
 
 });
